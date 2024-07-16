@@ -1,0 +1,17 @@
+[200~# variable length arguments
+
+def cal(*args):
+    sum1=0
+    for x in args:
+        sum1=sum1+x
+    print(sum1)
+cal(10,20,30,40,50)
+
+# variable length keyword arguments
+
+def dict1(**args):
+    for x in args:
+        print(args)
+        
+        
+dict1(name="yeshwanth",age="23",height="5.8")
