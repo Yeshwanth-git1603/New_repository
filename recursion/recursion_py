@@ -1,0 +1,31 @@
+x=lambda a,b : a+b
+print(x(1,2))
+
+
+
+
+# recursion 
+
+def fact(n):
+    if n==0:
+        return 1
+    else:
+        return n*fact(n-1)
+        
+res=fact(5)
+print(res)
+
+# fibanocci using recursion
+
+def fib(n):
+    if n==0:
+        return 0
+    elif n==1:
+        return 1
+    else:
+        return fib(n-1)+fib(n-2)
+        
+for x in range(5):
+    res=fib(x)
+    print(res)
+    
