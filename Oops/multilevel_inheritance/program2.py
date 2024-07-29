@@ -1,4 +1,4 @@
-#multilevel inheritance
+#multilevel inheritance on phone
 
 class phone:
     def __init__(self,name,model):

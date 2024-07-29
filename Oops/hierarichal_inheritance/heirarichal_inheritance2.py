@@ -1,4 +1,4 @@
-# home example
+# heirarical inheritance
 
 class asset:
     def __init__(self,name,area,sqft):

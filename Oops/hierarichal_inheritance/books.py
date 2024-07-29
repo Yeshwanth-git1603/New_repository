@@ -1,6 +1,4 @@
-# classs new class
-
-#heirarichal class
+heirarichal class
 
 class books:
     def __init__(self,name,author):
