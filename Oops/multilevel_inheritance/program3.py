@@ -1,4 +1,4 @@
-# multilevel inheritance using fruit class
+# creating fruit class using multilevel inheritance
 
 class fruits:
     def __init__(self,name,color):
